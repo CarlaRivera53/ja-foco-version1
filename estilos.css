@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.titulo {
+font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+font-size: 1.5rem;
+color:white;
+
+
+/*para que aparezca la sombra del tecto cuando prenden el foco */
+/* oofset-x | offset-y |blur-radius      color*/
+text-shadow: 5px 10px 2 px #597a83;
+}
+
+.luz {
+    background-color: #7a9ba4;
+}
+
+.oscuridad {
+    background-color: #597a83;
+}
+
+.foco {
+    /* para hacer la imagen resonsiva */
+    width:  100%;
+    max-width: 150px;
+    height: auto;
+
+    /*cambiar el cursos del usuario */
+    cursor:pointer
+}
